@@ -1,0 +1,221 @@
+/*footer section design*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+footer {
+    width: 100%;
+    font-family: "Poppins", sans-serif !important;
+    position: absolute;
+    background: black;
+    color: rgb(255, 255, 255);
+    padding: 55px 0 30px;
+    font-size: 14px;
+    line-height: 23px;
+    box-shadow: 0px 10px 20px 0px black;
+  }
+  
+  .rowa{
+    width: 92%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  
+  .cola{
+    flex-basis: 25%;
+    padding: 10px;
+  }
+  
+  .cola:nth-child(2), .cola:nth-child(3){
+    flex-basis: 15%;
+  
+  }
+  
+  .cola img {
+    width: 11%;
+  }
+  
+  p.bname {
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 22px;
+    color: blue;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p.bnam {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+  
+  .cola a.l-link {
+    display: flex;
+    text-decoration: none;
+    color: #1e40ff;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+  }
+  
+  .cola a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .cola h3.woow {
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: unset;
+}
+
+.cola h4.woo {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 1.3rem;
+}
+
+
+  .email-id{
+    width: fit-content;
+    border-bottom: 1px solid #0600ff;
+    margin: 20px 0;
+  }
+  
+  ul {
+    padding-left: 0 !important;
+}
+
+  ul li{
+    list-style: none;
+    margin-bottom: 12px;
+  }
+  
+  ul li a{
+    text-decoration: none;
+    color: #0600ff;
+  }
+  
+  form.send-msg {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #0600ff;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    padding: 0 0 15px 0;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+  
+  form.send-msg .fa{
+    font-size: 26px;
+    margin-right: 10px;
+  }
+  
+  form.send-msg input {
+    width: 100%;
+    background: transparent;
+    color: #0600ff;
+    border: 0;
+    outline: none;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+}
+  
+  form.send-msg button{
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  form.send-msg button .fas{
+    font-size: 20px;
+    color: white;
+  }
+  
+  .social-icons .fab{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #fff;
+    background: #0600ff;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+  
+  hr {
+    width: 90% !important;
+    border: 0 !important;
+    border-bottom: 3px solid rgba(81, 54, 231, 0.652) !important;
+    margin: 20px auto !important;
+    height: 0 !important;
+    color: #4219a1 !important;
+    opacity: 1 !important;
+}
+  
+  .copyright{
+    text-align: center;
+  }
+  
+  .underlinee{
+    width: 100%;
+    height: 5px;
+    background: #3d25e4;
+    border-radius: 3px;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    overflow: hidden;
+  }
+  
+  .underlinee span{
+    width: 15px;
+    height: 100%;
+    background: #00fff1;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    animation: moving 2s linear infinite;
+  }
+  
+  
+  @keyframes moving{
+    0%{
+      left: -20px;
+    }
+    100%{
+      left: 100%;
+    }
+  }
+  
+  @media (max-width: 700px){
+    footer{
+      bottom: unset; 
+    }
+    .cola{
+      flex-basis: 100%;
+    }
+    
+    .cola:nth-child(2), .cola:nth-child(3){
+      flex-basis: 100%;
+    
+    }
+  }
